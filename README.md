@@ -28,5 +28,6 @@ this project will solve 150 algorthm questions at least. In order to improve my 
 
 - [2]:  Dynamic Programming（动态编程）<br>
 - [3]: Backtracking （回溯算法）<br>
+- [4]: Recursion (递归) <br>
 - [5]: Greedy algorithms （贪婪算法）<br>
 - [6]: Divide & Conquer （分而治之）<br>
