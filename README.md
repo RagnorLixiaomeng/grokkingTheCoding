@@ -25,7 +25,7 @@ this project will solve 150 algorthm questions at least. In order to improve my 
 
 - [1]:  Breadth-First Search and Depth-First Search to solve problems related to Trees and Graphs(对于树跟图的广度优先、深度优先算法)<br>
 
-2:  Dynamic Programming（动态编程）<br>
-3: Backtracking （回溯算法）<br>
-5： Greedy algorithms （贪婪算法）<br>
-6： Divide & Conquer （分而治之）<br>
+- [2]:  Dynamic Programming（动态编程）<br>
+- [3]: Backtracking （回溯算法）<br>
+- [5]: Greedy algorithms （贪婪算法）<br>
+- [6]: Divide & Conquer （分而治之）<br>
