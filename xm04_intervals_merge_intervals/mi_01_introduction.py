@@ -5,7 +5,7 @@
 # @File : mi_01_introduction.py
 
 """
-algothm:
+algorithm:
     1、Sort the intervals on the start time to ensure a.start <= b.start
     2、If ‘a’ overlaps ‘b’ (i.e. b.start <= a.end), we need to merge them into a new interval ‘c’ such that:
         c.start = a.start
