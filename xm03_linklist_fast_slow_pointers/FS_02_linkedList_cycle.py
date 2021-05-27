@@ -25,6 +25,7 @@ class Node(object):
         self.next = next
 
 
+
 def has_cycle(head: Node):
     pointer_slow, pointer_fast = head, head
     while pointer_fast is not None and pointer_fast.next is not None:
