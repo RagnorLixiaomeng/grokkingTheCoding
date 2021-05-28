@@ -2,7 +2,7 @@
 # @Time : 2021/5/27 6:46 PM
 # @Author: lixiaomeng_someday
 # @Email : 131xxxx119@163.com
-# @File : cs_01_intorduction.py
+# @File : cs_01_algorithm.py
 
 
 """

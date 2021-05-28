@@ -2,7 +2,7 @@
 # @Time : 2021/5/26 11:58 PM
 # @Author: lixiaomeng_someday
 # @Email : 131xxxx119@163.com
-# @File : mi_01_introduction.py
+# @File : mi_01_algorithm.py
 
 """
 algorithm:

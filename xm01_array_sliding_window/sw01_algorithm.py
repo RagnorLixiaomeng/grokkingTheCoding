@@ -2,7 +2,7 @@
 # @Time : 2021/5/21 12:42 AM
 # @Author: lixiaomeng_someday
 # @Email : 131xxxx119@163.com
-# @File : sw01_introduction.py
+# @File : sw01_algorithm.py
 
 """
 story:Given an array, find the average of all contiguous subarrays of size ‘K’ in it.

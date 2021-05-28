@@ -2,7 +2,7 @@
 # @Time : 2021/5/24 3:31 PM
 # @Author: lixiaomeng_someday
 # @Email : 131xxxx119@163.com
-# @File : TP_01_introduction.py
+# @File : TP_01_algorithm.py
 
 """
 name: two-pointer 双指针法

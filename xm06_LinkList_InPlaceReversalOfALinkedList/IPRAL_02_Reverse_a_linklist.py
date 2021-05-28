@@ -23,11 +23,17 @@ from grokkingTheCoding.DataStructure.link_list import Link_list
 
 def reverse_link_list(linklist: Link_list)-> Link_list:
     previous, current, _next = None, linklist, None  # init variable
-    while current.next is not None:
-        # step1 : store the next node
+    while current is not None:
+        # step1 : 先把current 的正序的next存储起来
         _next = current.next
-        # step2 :
-    return linklist
+        # step2 : 既然是反转，就把current 的 next指向以前的previous
+        current.next = previous
+        # step3 : 既然是反转，那本来的previous应该指向当前的current
+        previous = current
+        # step4 : 最后移动到下一个链表的元素上,这里就是步骤1存在的意义
+        current = _next
+    # return linklist  # 这个是错的，你知道为啥吗，因为经过反转后，结合你定义的数据结构，previous才是最后保存所有的人
+    return previous
 
 
 def main():
@@ -36,8 +42,9 @@ def main():
     test.next.next = Link_list(6)
     test.next.next.next = Link_list(8)
     test.next.next.next.next = None
+    test.print_link_list()
 
-    print(reverse_link_list(test))
+    reverse_link_list(test).print_link_list()
 
 
 if __name__ == "__main__":

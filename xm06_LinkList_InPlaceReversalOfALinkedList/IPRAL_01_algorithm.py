@@ -2,7 +2,7 @@
 # @Time : 2021/5/27 10:14 PM
 # @Author: lixiaomeng_someday
 # @Email : 131xxxx119@163.com
-# @File : IPRAL_01_introduction.py
+# @File : IPRAL_01_algorithm.py
 
 """
 scenes:
@@ -13,5 +13,10 @@ algorithm:
 
     2、以逐步的方式，我们将current通过previous在继续下一个节点之前将其指向节点来反转该节点。另外，我们将更新，previous使其始终指向已处理的上一个节点。这是我们算法的直观表示：
 
+solution:
+    step1 : 先把current 的正序的next存储起来
+    step2 : 既然是反转，就把current 的 next指向以前的previous
+    step3 : 既然是反转，那本来的previous应该指向当前的current
+    step4 : 最后移动到下一个链表的元素上,这里就是步骤1存在的意义
 """
 

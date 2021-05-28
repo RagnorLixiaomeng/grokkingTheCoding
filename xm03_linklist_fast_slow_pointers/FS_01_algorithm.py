@@ -2,7 +2,7 @@
 # @Time : 2021/5/24 11:00 PM
 # @Author: lixiaomeng_someday
 # @Email : 131xxxx119@163.com
-# @File : FS_01_introduction.py
+# @File : FS_01_algorithm.py
 
 """
 name: fast slow pointers
